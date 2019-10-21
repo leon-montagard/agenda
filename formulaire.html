@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Formulaire</title>
+    <link rel="stylesheet" type="text/css" href="agenda.css" />
+    <meta name="description" content="">
+  </head>
+<body>
+    <header>
+        Planifier un évènement
+    </header>
+<main>
+<div class="img-formulaire">
+    <img src="agenda.gif">
+</div>
+<form action="formulaire" method="post" id="formulaire">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <label for="lieu">lieu :</label>
+        <input type="" id="lieu" name="lieu">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+      <input type="date" name="date">
+      <input type="time" name="horraire">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <label for="Importance">Importance:</label>
+
+<select name="importance" id="importance">
+    <option value="">--Choisissez une option--</option>
+    <option value="peu-important">Peu-important !</option>
+    <option value="important">Important !!</option>
+    <option value="tres-important">Trés-Important !!!</option>
+</select>
+    </div>
+    <br>
+ <div>
+        <a href="agenda.html"><input type="button" value="valider" onclick=""/></a>
+</div>
+</form>
+</main>
+
